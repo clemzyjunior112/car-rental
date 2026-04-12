@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EliteDrive | Luxury Car Rental</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="page">
+    <nav class="navbar">
+      <a href="#top" class="logo">
+        <span class="logo-mark">E</span>
+        <span>EliteDrive</span>
+      </a>
+
+      <div class="nav-links">
+        <a href="#fleet">Fleet</a>
+        <a href="#features">Benefits</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+
+    <header class="hero" id="top">
+      <div class="hero-content">
+        <div class="eyebrow">
+          <span class="pulse"></span>
+          Premium Luxury Rentals
+        </div>
+
+        <h1>Rent Your <span>Dream Car</span></h1>
+
+        <p>
+          Choose from an exclusive collection of luxury, sport, and executive vehicles.
+          Arrive with confidence, drive with comfort, and make every journey unforgettable.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#fleet" class="btn btn-primary">View Fleet</a>
+          <a href="#features" class="btn btn-secondary">Why Choose Us</a>
+        </div>
+
+        <div class="stats">
+          <div class="stat-card">
+            <strong>120+</strong>
+            <span>Luxury vehicles</span>
+          </div>
+
+          <div class="stat-card">
+            <strong>4.9</strong>
+            <span>Customer rating</span>
+          </div>
+
+          <div class="stat-card">
+            <strong>24/7</strong>
+            <span>Concierge support</span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="fleet" id="fleet">
+      <div class="section-heading">
+        <span class="kicker">Signature Fleet</span>
+        <h2>Luxury machines for every occasion</h2>
+        <p>
+          Each vehicle is maintained to showroom standards, delivered clean,
+          insured, and ready for an unforgettable drive.
+        </p>
+      </div>
+
+      <div class="fleet-grid">
+        <article class="car-card">
+          <div class="car-image">
+            <img src="https://images.unsplash.com/photo-1544636331-e26879cd4d9b?auto=format&fit=crop&w=1200&q=85" alt="Lamborghini Huracan" />
+            <span class="price-tag">$799/day</span>
+          </div>
+
+          <div class="car-content">
+            <h3>Lamborghini Huracan</h3>
+            <div class="car-meta">
+              <span>V10</span>
+              <span>2 Seats</span>
+              <span>Supercar</span>
+            </div>
+
+            <div class="card-footer">
+              <span class="rating">Top speed 202 mph</span>
+              <button class="book-btn" data-car="Lamborghini Huracan">Book Now</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="car-card">
+          <div class="car-image">
+            <img src="https://images.unsplash.com/photo-1503736334956-4c8f8e92946d?auto=format&fit=crop&w=1200&q=85" alt="Ferrari 488 GTB" />
+            <span class="price-tag">$849/day</span>
+          </div>
+
+          <div class="car-content">
+            <h3>Ferrari 488 GTB</h3>
+            <div class="car-meta">
+              <span>Twin Turbo</span>
+              <span>2 Seats</span>
+              <span>Italian</span>
+            </div>
+
+            <div class="card-footer">
+              <span class="rating">661 horsepower</span>
+              <button class="book-btn" data-car="Ferrari 488 GTB">Book Now</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="car-card">
+          <div class="car-image">
+            <img src="https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?auto=format&fit=crop&w=1200&q=85" alt="Porsche 911 Carrera" />
+            <span class="price-tag">$549/day</span>
+          </div>
+
+          <div class="car-content">
+            <h3>Porsche 911 Carrera</h3>
+            <div class="car-meta">
+              <span>AWD</span>
+              <span>4 Seats</span>
+              <span>Sport</span>
+            </div>
+
+            <div class="card-footer">
+              <span class="rating">0-60 in 3.5s</span>
+              <button class="book-btn" data-car="Porsche 911 Carrera">Book Now</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="car-card">
+          <div class="car-image">
+            <img src="https://images.unsplash.com/photo-1555215695-3004980ad54e?auto=format&fit=crop&w=1200&q=85" alt="BMW M4 Competition" />
+            <span class="price-tag">$399/day</span>
+          </div>
+
+          <div class="car-content">
+            <h3>BMW M4 Competition</h3>
+            <div class="car-meta">
+              <span>Coupe</span>
+              <span>4 Seats</span>
+              <span>Executive</span>
+            </div>
+
+            <div class="card-footer">
+              <span class="rating">503 horsepower</span>
+              <button class="book-btn" data-car="BMW M4 Competition">Book Now</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="car-card">
+          <div class="car-image">
+            <img src="https://images.unsplash.com/photo-1609521263047-f8f205293f24?auto=format&fit=crop&w=1200&q=85" alt="Mercedes AMG GT" />
+            <span class="price-tag">$599/day</span>
+          </div>
+
+          <div class="car-content">
+            <h3>Mercedes AMG GT</h3>
+            <div class="car-meta">
+              <span>GT</span>
+              <span>2 Seats</span>
+              <span>Luxury</span>
+            </div>
+
+            <div class="card-footer">
+              <span class="rating">Handcrafted V8</span>
+              <button class="book-btn" data-car="Mercedes AMG GT">Book Now</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="car-card">
+          <div class="car-image">
+            <img src="https://images.unsplash.com/photo-1606016159991-dfe4f2746ad5?auto=format&fit=crop&w=1200&q=85" alt="Range Rover Sport" />
+            <span class="price-tag">$459/day</span>
+          </div>
+
+          <div class="car-content">
+            <h3>Range Rover Sport</h3>
+            <div class="car-meta">
+              <span>SUV</span>
+              <span>5 Seats</span>
+              <span>Premium</span>
+            </div>
+
+            <div class="card-footer">
+              <span class="rating">All-terrain luxury</span>
+              <button class="book-btn" data-car="Range Rover Sport">Book Now</button>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="features" id="features">
+      <div class="section-heading">
+        <span class="kicker">Premium Service</span>
+        <h2>Everything included for a flawless rental</h2>
+        <p>
+          From booking to return, our service is designed to feel effortless,
+          safe, and genuinely premium.
+        </p>
+      </div>
+
+      <div class="features-grid">
+        <article class="feature-card">
+          <div class="icon-wrap">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 13a8 8 0 0 1 16 0" />
+              <path d="M18 19a2 2 0 0 0 2-2v-4h-3v6Z" />
+              <path d="M6 19a2 2 0 0 1-2-2v-4h3v6Z" />
+              <path d="M13 20h3" />
+            </svg>
+          </div>
+
+          <h3>24/7 Support</h3>
+          <p>
+            Our concierge team is available day and night for roadside help,
+            delivery updates, and trip assistance.
+          </p>
+        </article>
+
+        <article class="feature-card">
+          <div class="icon-wrap">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Z" />
+              <path d="m9 12 2 2 4-5" />
+            </svg>
+          </div>
+
+          <h3>Insurance Included</h3>
+          <p>
+            Drive confidently with protection included in every booking,
+            plus optional upgrades for longer journeys.
+          </p>
+        </article>
+
+        <article class="feature-card">
+          <div class="icon-wrap">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M20 12V8H6a2 2 0 0 1 0-4h12v4" />
+              <path d="M4 6v12a2 2 0 0 0 2 2h14v-4" />
+              <path d="M18 12h.01" />
+            </svg>
+          </div>
+
+          <h3>Best Price</h3>
+          <p>
+            Transparent rates, no surprise fees, and premium packages built
+            to give you maximum value.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <div class="cta-strip" id="contact">
+      <div class="cta-content">
+        <h2>Ready to make your entrance?</h2>
+        <p>
+          Select your dream car, choose the dates, and our team will confirm
+          availability with a custom rental plan.
+        </p>
+
+        <button class="btn btn-primary book-btn" data-car="Premium Fleet Consultation">
+          Start Booking
+        </button>
+      </div>
+    </div>
+
+    <footer>
+      <p>© 2026 EliteDrive Luxury Rentals. All rights reserved.</p>
+      <p>Miami • Los Angeles • Dubai • London</p>
+    </footer>
+  </div>
+
+  <div class="modal" id="bookingModal" aria-hidden="true">
+    <div class="modal-box" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <div class="modal-header">
+        <div>
+          <h2 id="modalTitle">Book Your Rental</h2>
+          <p class="modal-car" id="selectedCar">Luxury Vehicle</p>
+        </div>
+
+        <button class="close-modal" id="closeModal" type="button" aria-label="Close booking form">
+          ×
+        </button>
+      </div>
+
+      <form id="bookingForm">
+        <div class="form-grid">
+          <div class="field">
+            <label for="name">Full Name</label>
+            <input id="name" name="name" type="text" placeholder="Your name" required />
+          </div>
+
+          <div class="field">
+            <label for="email">Email Address</label>
+            <input id="email" name="email" type="email" placeholder="you@example.com" required />
+          </div>
+
+          <div class="field">
+            <label for="phone">Phone Number</label>
+            <input id="phone" name="phone" type="tel" placeholder="+1 555 123 4567" required />
+          </div>
+
+          <div class="field">
+            <label for="location">Pickup Location</label>
+            <select id="location" name="location" required>
+              <option value="">Select city</option>
+              <option>Miami</option>
+              <option>Los Angeles</option>
+              <option>Dubai</option>
+              <option>London</option>
+            </select>
+          </div>
+
+          <div class="field">
+            <label for="pickup">Pickup Date</label>
+            <input id="pickup" name="pickup" type="date" required />
+          </div>
+
+          <div class="field">
+            <label for="returnDate">Return Date</label>
+            <input id="returnDate" name="returnDate" type="date" required />
+          </div>
+
+          <div class="field full">
+            <label for="message">Special Request</label>
+            <textarea id="message" name="message" placeholder="Delivery address, preferred color, chauffeur request..."></textarea>
+          </div>
+        </div>
+
+        <div class="submit-row">
+          <p class="form-note">
+            This demo form confirms visually. Connect it to a backend later for real bookings.
+          </p>
+
+          <button class="btn btn-primary" type="submit">
+            Send Request
+          </button>
+        </div>
+
+        <div class="success-message" id="successMessage">
+          Request received. Our concierge team will contact you shortly.
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
